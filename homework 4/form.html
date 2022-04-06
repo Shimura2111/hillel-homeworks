@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <form action="https://fom.in.ua/echo" method="post">
+      <fieldset>
+        <legend>Регистрация</legend>
+        <p></p>
+          <label>
+            Ваше имя:*
+            <input type="text" name="your-name" required autofocus>
+          </label>
+        </p>
+        <p>
+          <label>
+            Телефон:*
+            <input type="tel" name="phone" required>
+          </label>
+        </p>
+        <p>
+          <label>
+            E-mail:*
+            <input type="email" name="email" required>
+          </label>
+        </p>
+        <p>
+          <label>
+            Пароль:*
+            <input type="password" name="password" required>
+          </label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Подбор рейса</legend>
+        <p>
+          <label>
+            Откуда:
+            <select name="city1">
+              <optgroup label="Украина">
+                <option value="kiev">Киев</option>
+                <option value="lvov">Львов</option>
+                <option value="odessa">Одесса</option>
+              </optgroup>
+              <optgroup label="Польша">
+                <option value="warsaw">Варшава</option>
+                <option value="krakow">Краков</option>
+                <option value="sopot">Сопот</option>
+              </optgroup>
+            </select>
+          </label>
+        </p>
+        <p>
+          <label>
+            Куда:
+            <select name="city2">
+              <optgroup label="Украина">
+                <option value="kiev">Киев</option>
+                <option value="lvov">Львов</option>
+                <option value="odessa">Одесса</option>
+              </optgroup>
+              <optgroup label="Польша">
+                <option value="warsaw">Варшава</option>
+                <option value="krakow">Краков</option>
+                <option value="sopot">Сопот</option>
+              </optgroup>
+            </select>
+          </label>
+        </p>
+        <p>
+          <label>
+            Туда:
+            <input type="date" name="there">
+          </label>  
+        </p>
+        <p>
+          <label>
+            Обратно:
+            <input type="date" name="back">
+          </label>  
+        </p>
+        <p>
+          <label>  
+            К-во билетов
+            <input type="text" name="number-of-tickets" value="1">
+          </label>
+        </p>
+        <p>
+          <strong>Дети</strong>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="children" value="with-out" checked>
+            Без детей
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="children" value="1-chield">
+            1 ребенок
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="children" value="2-chield">
+            2 ребенка
+          </label>
+        </p>
+        <p>
+          <strong>Комфорт</strong>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="more-leg-room">
+            Больше места для ног
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="nutrition">
+            Питание
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="more-luggage-space" checked>
+            Больше места для багажа
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="window-seat">
+            Место у окна
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="seat-in-the-front-row">
+            Место в первом ряду
+          </label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Информация по страховке</legend>
+        <p>
+          <label>
+            <input type="checkbox" name="i-need-insurance" checked>
+            Мне нужна страховка
+          </label>  
+        </p>
+        <p>
+          <strong>Загрузите копию паспорта</strong>
+        </p>
+        <p>
+          <input type="file" name="file">
+        </p>
+        <p>
+          <textarea cols="30" rows="10" name="notes" placeholder="Дополнительная информация"></textarea>
+        </p>
+      </fieldset> 
+      <input type="submit">
+      <input type="reset">
+    </form>
+  </div>
+</body>
+</html>

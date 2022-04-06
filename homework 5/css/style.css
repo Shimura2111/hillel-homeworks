@@ -1,0 +1,166 @@
+.body {
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+}
+
+.background {
+    background: #343B42;
+    background-image: url(../img/girl-in-top.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.container {
+    width: 1041px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    padding-bottom: 64px;
+    padding-top: 33px;
+}
+
+.nav {
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.nav-item {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 40px;  
+}
+
+.about-site-1 {
+    padding-bottom: 50px;
+}
+
+.about-site-link {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background: #62D0DF
+}
+
+.about-site-title-1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 53px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-bottom: 31px;
+    padding-top: 64px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.text {
+    margin-top: 0;
+    margin-bottom: 62px;
+    font-size: 24px;
+    line-height: 34px;
+    color: #D6D6D6;
+}
+
+.about-site-link-2 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background: #F9B640;
+}
+
+.do {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #FAB63E;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 33px;
+    margin-bottom: 0;
+}
+
+.about-site-2 {
+    background: #62D0DF;
+    padding-bottom: 78px;
+    padding-top: 64px;
+}
+
+.about-site-title-2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 53px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: o;
+    margin-bottom: 45px;
+}
+
+.text-2 {
+    font-size: 24px;
+    line-height: 34px;
+    color: #0B0B0B;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    background: #C4C4C4
+}
+
+.box {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background: #C4C4C4
+}
+
+.about-site-3 {
+    background-image: url(../img/strawberry-bottom.jpg);
+    padding-top: 89px;
+    padding-bottom: 110px;
+}
+
+.about-site-title-3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 53px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.text-3 {
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+

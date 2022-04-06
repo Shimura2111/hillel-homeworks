@@ -1,0 +1,166 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.body {
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background: #EEEFF1;
+    padding-top: 71px;
+    padding-bottom: 73px;
+}
+
+.logo {
+	float: left;
+}
+
+.nav {
+	padding-top: 8px;
+	float: right;
+}
+
+.nav-item {
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 42px;
+}
+
+.nav-item:hover {
+    color: #34547A;
+}
+
+.about-site {
+    padding-top: 76px;
+    padding-bottom: 146px;
+}
+
+.picture-notebook {
+    width: 570px;
+    float: left;
+}
+  
+.about-site-1 {
+    width: 540px;
+    float: left;
+}
+
+.about-site-1 p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 76px;
+    color: #727272;
+}
+
+.about-site-1-title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 79px;
+    margin-bottom: 36px;
+    color: #000000;
+}
+
+.about-site-1-link {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 23px 54px;
+    font-size: 16px;
+    background: #34547A;
+}
+
+.how-i-work {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background: #EEEFF1;
+}
+
+.how-i-work-title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #000000;
+}
+
+.how-i-work p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 57px;
+}
+
+.photo {
+    padding-top: 141px;
+    padding-bottom: 116px;
+}
+
+.photo-work {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 27px;
+}
+
+.mr-0 {
+	margin-right: 0;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background: #34547A;
+}
+
+.who-i-am {
+    float: left;
+}
+
+.who-i-am-title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.who-i-am p {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.logo-footer {
+    float: right;
+    margin-left: 23px;
+    margin-top: 14px;
+}
+
+
+
+
+
+

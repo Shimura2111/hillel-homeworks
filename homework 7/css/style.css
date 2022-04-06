@@ -1,0 +1,271 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.body {
+    font-family: "Roboto", "Aria", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header {
+   border-bottom: 1px solid #EFEFEF;;
+}
+
+.background-header {
+    padding-top: 17px;
+    padding-bottom: 15px;
+    background-color: #EFEFEF
+}
+
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-link a {
+    float: right;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.logo {
+   float: left;
+   margin-right: 23px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.fl-r {
+    float: right;
+}
+
+.phone {
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.button-1 {
+    margin-top: 40px;
+    margin-right: 40px;
+    border: 2px solid #F13C6E;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+ 
+.nav {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.nav a:hover {
+    color: #F13C6E;
+}
+ 
+.main {
+    margin-top: 36px;
+}
+
+.promotions {
+    background: #F13C6E;
+}
+
+.promotion-about {
+    width: 555px;
+    float: left;
+}
+
+.promotion-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.promotions p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.armchair-link {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.promotion-img {
+    width: 555px;
+    float: left;
+}
+
+.catalogue { 
+    margin-bottom: 85px;
+    padding-top: 80px;
+    background: #EFEFEF;
+}
+
+.catalogue-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 38px;
+}
+
+.parent-card {
+    font-size: 0;
+}
+
+.card {
+    background: #FFFFFF;
+    display: inline-block;
+    width: 255px;
+    margin-right: 30px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+.photo-armchair {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+    
+}
+
+.buy {
+    background: #F13C6E;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin: 0 auto;
+    width: 130px;
+}
+
+.popular {
+    margin-top: 81px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #EFEFEF;;
+}
+
+.categories {
+    display: inline-block;
+    vertical-align: top;
+    width: 255px;
+    height: 253px;
+}
+
+.categories-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    border-bottom: 1px solid #EFEFEF;;
+}
+
+.categories-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+    text-decoration: none;
+    display: block;
+}
+
+.footer {
+    margin-top: 37px;
+}
+
+.setting {
+    margin-bottom: 38px;
+    margin-right: 20px;
+    float: left;
+}
+
+.setting a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.backgraund-footer {
+    height: 64px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #EFEFEF
+}
+
+.rights {
+    float: left;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.confidentiality {
+    float: right;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    text-decoration: none;
+}
+
